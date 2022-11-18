@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     padding: 0px;
     margin: 0px;
@@ -19,3 +25,16 @@ nav{
     padding: 16px;
     border-bottom: solid black 1px;
 }
+
+
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+footer {
+    position:fixed;
+    left:16px;
+    bottom:0px;
+    width:100%;
+ }
