@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-html{
-    font-family: 'Roboto', sans-serif;
+h1{
+    color: darkgreen
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 body{
@@ -26,6 +30,9 @@ nav{
     border-bottom: solid black 1px;
 }
 
+a{
+    text-decoration: none;
+}
 
 a:hover{
     color: green;
@@ -34,7 +41,22 @@ a:hover{
 
 footer {
     position:fixed;
-    left:16px;
-    bottom:0px;
+    /* left:16px; */
+    bottom:0;
     width:100%;
+    background-color: rgb(7, 182, 7);
+ }
+
+ header{
+    background-color: rgb(245, 96, 42);
+    color: white;
+ }
+
+ .white-text{
+    color: white;
+    text-decoration: none;
+ }
+
+ .recipe-name{
+    color: rgb(7, 182, 7);
  }
